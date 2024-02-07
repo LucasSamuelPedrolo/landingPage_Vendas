@@ -1,5 +1,5 @@
 import './App.css';
-import icone from './image/novaLogo.png';
+import icone from './image/academiaIcon.png';
 import bakiTreino from './image/bakiTreinado.jpg';
 import card1Alteres from './image/cardAlteres.png';
 import card2Tenis from './image/cardTenisCorrida.png';
@@ -9,24 +9,27 @@ function App() {
   return (
 
     <main>
-      <section className='allpgs topAdjust'>
-        <header className='mainHeader'>
-          <div className='headerHolder'>
-            <div>
-              <img src={icone} alt='O icone da academia'></img>
-            </div>
-            <nav className='headerNav'>
-              <a href="#">Sobre nós</a>
-              <a href="#">Treinos e exercicios</a>
-              <a href="#">Contato</a>
-            </nav>
-          </div>
-        </header>
-        <div className='smooth'>
-          <h1>A vida precisa de movimento</h1>
-          <p>Faça do movimento uma parte da sua vida diária com exercicios curtos e fáceis</p>
-          <a href='#'>Saiba mais</a>
+      <header className='mainHeader'>
+        <div className='headerHolder'>
           <div>
+            <img src={icone} alt='O icone da academia' title='a melhor da cidade!'></img>
+          </div>
+          <nav className='headerNav'>
+            <a href="#">Sobre nós</a>
+            <a href="#">Treinos e exercicios</a>
+            <a href="#">Contato</a>
+          </nav>
+        </div>
+      </header>
+
+      <section className='initialPg'>
+        <div className='smooth initialPgContent'>
+          <div className='initialText'>
+            <h1>A vida <span>precisa de movimento</span></h1>
+            <p>Faça do movimento uma parte da sua <span>vida diária com exercicios curtos e fáceis</span></p>
+            <a href='#' className='linkGYM'>Saiba mais</a>
+          </div>
+          <div className='initialImage'>
             <img src={bakiTreino} alt='Um perssonagem de anime de costas e sem camiseta com o corpo muito definido'></img>
           </div>
         </div>

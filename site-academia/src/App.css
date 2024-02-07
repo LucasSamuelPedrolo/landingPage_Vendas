@@ -1,18 +1,9 @@
 :root {
     --backgroundColorPrimary: #2B1821;
     --textHeaderColor: #fff;
-    --headerBackgroundColor: #462f39;
-}
-
-.allpgs {
-    min-width: 100%;
-    max-width: 1000px;
-    min-height: 100vh;
-    background-color: var(--backgroundColorPrimary);
-}
-
-.topAdjust {
-    margin-top: 4em;
+    --headerBackgroundColor: #3d3136;
+    --textBaseColor: #fff;
+    --BTNBackgroundColor : #FD288D;
 }
 
 .mainHeader {
@@ -28,15 +19,15 @@
 
 .headerHolder {
     display: flex;
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 1.5em 0 1.5em;
     justify-content: space-between;
 }
 
 .mainHeader img {
-    filter: invert() brightness(100%);
-    width: 4em;
+    width: 7.5em;
+    filter: invert();
 }
 
 .headerNav {
@@ -51,4 +42,86 @@
     color: var(--textHeaderColor);
     padding: 0 1em;
     text-decoration: none;
+}
+
+.allpgs {
+    min-width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    background-color: var(--backgroundColorPrimary);
+}
+
+.initialPg {
+    min-width: 100%;
+    max-width: 1000px;
+    background-color: var(--backgroundColorPrimary);
+    margin-top: 4em;
+    min-height: calc(100vh - 4em);
+    color: var(--textBaseColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initialPgContent {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.initialText {
+    display: flex;
+    flex-direction: column;
+    min-height: 90%;
+    max-width: 40%;
+    text-align: left;
+    padding: 0 2em;
+}
+
+.initialText h1 {
+    font-size: 4em;
+    margin-bottom: 0.4em;
+    padding: 0;
+}
+
+.initialText h1 span{
+    display: block;
+}
+
+.initialText p{
+    line-height: 1.3em;
+    font-size: 1.5em;
+}
+
+.initialText p span{
+    display: block;
+}
+
+.linkGYM{
+    padding:1em 2em;
+    max-width: 50%;
+    background-color: var(--BTNBackgroundColor);
+    border-radius: 3em;
+    color: var(--textBaseColor);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing:0.1em ;
+}
+
+.initialImage{
+    background-image:url('./image/sssplatter.svg');
+    background-size: 100%;
+    margin: 0 24px;
+}
+
+.initialImage img {
+    border-radius: 1em;
+    border: solid 1px black;
+    width: 100%;
+    min-width: 200px;
 }
