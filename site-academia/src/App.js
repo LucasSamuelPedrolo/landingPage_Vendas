@@ -35,44 +35,54 @@ function App() {
         </div>
       </section >
 
-      <section className='allpgs'>
+      <section className='allpgs pg2'>
         <div className='smooth'>
-          <h2>Sobre a viva a vida</h2>
+          <div className='pg2Content'>
+            <h2>Sobre a viva a vida</h2>
 
-          <p>Sempre busque o melhor para sí ,melhore seu fisíco junto a sua saúde ,evolua cada dia mais junto com a academia monster,<span> não tenha medo de crescer</span>.</p>
+            <p>Sempre busque o melhor para sí ,melhore seu fisíco junto a sua saúde ,evolua cada dia mais junto com a academia monster,<span> não tenha medo de crescer</span>.</p>
+          </div>
         </div>
       </section>
 
-      <section className='allpgs'>
-        <div className='smooth'>
+      <section className='allpgs pg3'>
+        <div className='smooth contentPg3'>
           <h2>Principais recursos</h2>
+          <div className='resourse'>
 
-          <div className='card'>
-            <div className='cardContent1'>
-              <img src={card1Alteres} alt='um icone de um braço forte levantando um alter em apenas uma mão'></img>
+            <div className='blockCard'>
+              <div className='card'>
+                <div className='cardContent1'>
+                  <img src={card1Alteres} alt='um icone de um braço forte levantando um alter em apenas uma mão'></img>
+                </div>
+              </div>
+
+              <div className='textCard'>
+                <p>O melhor local para treinar!</p>
+              </div>
             </div>
 
-            <div className='textCard'>
-              <p>O melhor local para treinar!</p>
-            </div>
-          </div>
+            <div className='blockCard'>
+              <div className='card'>
+                <div className='cardContent1'>
+                  <img src={card2Tenis} alt='um icone de um braço forte levantando um alter em apenas uma mão'></img>
+                </div>
+              </div>
 
-          <div className='card'>
-            <div className='cardContent1'>
-              <img src={card2Tenis} alt='um icone de um braço forte levantando um alter em apenas uma mão'></img>
-            </div>
-
-            <div className='textCard'>
-              <p>Sinta-se a vontade com profissionais qualificados!</p></div>
-          </div>
-
-          <div className='card'>
-            <div className='cardContent1'>
-              <img src={card3Coracao} alt='um icone de um braço forte levantando um alter em apenas uma mão'></img>
+              <div className='textCard'>
+                <p>Sinta-se a vontade com profissionais qualificados!</p></div>
             </div>
 
-            <div className='textCard'>
-              <p>Tenha seu objetivo em mente e guiaremos você para o sucesso!</p></div>
+            <div className='blockCard'>
+              <div className='card'>
+                <div className='cardContent1'>
+                  <img src={card3Coracao} alt='um icone de um braço forte levantando um alter em apenas uma mão'></img>
+                </div>
+              </div>
+
+              <div className='textCard'>
+                <p>Tenha seu objetivo em mente e guiaremos você para o sucesso!</p></div>
+            </div>
           </div>
         </div>
 
