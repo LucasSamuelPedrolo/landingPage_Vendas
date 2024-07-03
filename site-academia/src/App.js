@@ -147,7 +147,8 @@ function App() {
 
             <p>Email <span>site@ficticio.com.br</span></p>
 
-            <p>Social <a href='#'>F</a>
+            <p>Social 
+              <a href='#'>F</a>
               <a href='#'>I</a>
               <a href='#'>T</a>
             </p>
